@@ -1,3 +1,8 @@
+@extends('layouts.main')
+
+@section('title', 'Produtos')
+
+@section('content')
 <h1>Tela de produtos</h1>
 
 <p>Produto 1</p>
@@ -7,3 +12,4 @@
 
 
 <a href="/">Voltar para a home</a>
+@endsection

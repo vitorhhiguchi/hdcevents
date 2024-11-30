@@ -11,5 +11,9 @@
 <p>Produto 4</p>
 
 
+@if ($busca != '')
+    <p>O usuario esta buscando por {{$busca}}</p>
+@endif
+
 <a href="/">Voltar para a home</a>
 @endsection

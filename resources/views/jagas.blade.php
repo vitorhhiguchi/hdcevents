@@ -42,6 +42,11 @@
         <img src="https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/371294465_1489994798484856_3241704008621436717_n.jpg?ccb=11-4&oh=01_Q5AaIIN8n3CxxS12cOzzHBNqherS18FYFTTCRgjx-4AYOueA&oe=675619D9&_nc_sid=5e03e0&_nc_cat=103"
             alt="danilão">
     </div>
+
+    @if ($busca != "")
+        <p>O usuario esta buscando pelo {{$busca}}</p>
+    @endif
+
     <a href="/">Voltar para a home</a>
 </div>
 @endsection
